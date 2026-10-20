@@ -1,0 +1,36 @@
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Go
+bin/
+dist/
+vendor/
+coverage.out
+
+# Node
+node_modules/
+.turbo/
+*.tsbuildinfo
+
+# JVM
+*.class
+target/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OpenTofu / Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
